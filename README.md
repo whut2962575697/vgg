@@ -7,15 +7,19 @@ vgg模型进行遥感影像场景分类
 2.然后利用prepare_data.py制作数据集
 
 3.在train.py中修改相关文件的路径
+
 如下：
+
 '''
 pre_vgg19_model = r"imagenet-vgg-verydeep-19.mat"  # 预训练模型
+
 image_pkl = r"image.pkl"  # 图像矩阵
+
 label_pkl = r"label.pkl"  # 标签矩阵
 '''
 
-
 4.训练时直接运行train.py
+
 5.训练结束后，模型文件保存至model文件夹，tensorboard日志文件在logs文件夹，利用tensorboard可以查看loss曲线等
 
 
