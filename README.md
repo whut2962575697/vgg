@@ -47,3 +47,11 @@ contains 7 scene classes and 400 samples of size 400x400 in each class.
 
 下载地址：https://sites.google.com/site/qinzoucn/documents
 -------------------------------------------------------------------------
+
+经过60轮训练，模型在验证集上的精度可达到90%以上，其loss曲线如下：
+
+![loss曲线](https://github.com/whut2962575697/vgg/blob/master/loss.png)
+
+在TensorBoard中可以输出其网络结构：
+![网络结构](https://github.com/whut2962575697/vgg/blob/master/network.png)
+
