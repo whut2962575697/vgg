@@ -19,7 +19,7 @@ label_pkl = r"label.pkl"  # 标签矩阵
 def train():
     imgs = load_pickle(image_pkl)
     labels = load_pickle(label_pkl)
-    id_list = range(len(imgs))
+    id_list = list(range(len(imgs)))
     np.random.shuffle(id_list)
 
     mean = np.mean(imgs, axis=0)
